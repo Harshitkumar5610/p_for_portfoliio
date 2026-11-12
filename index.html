@@ -1,133 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Harshit Kumar, a first-year Computer Science student from Karnataka.">
-  <title>Harshit Kumar | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="logo" href="#home">HK<span>.</span></a>
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#hobbies">Hobbies</a>
-      </div>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">FIRST-YEAR COMPUTER SCIENCE STUDENT</p>
-          <h1>Hi, I'm <span class="accent">Harshit Kumar.</span></h1>
-          <p class="hero-text">I'm from Karnataka and currently learning programming and web development. This is my space to share what I'm learning and the projects I build along the way.</p>
-          <a class="button" href="#projects">See my projects <span>↘</span></a>
-        </div>
-        <div class="profile-wrap">
-          <div class="profile-card">
-            <div class="profile-avatar">HK</div>
-            <p class="profile-name">Harshit Kumar</p>
-            <p class="profile-role">Computer Science Student</p>
-            <div class="profile-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div>
-          </div>
-          <span class="decoration decoration-one">✳</span>
-          <span class="decoration decoration-two">✦</span>
-        </div>
-      </div>
+    <header>
+        <h2>Harshit Kumar</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Hello, I'm Harshit Kumar</h1>
+        <p>I'm a first-year Computer Science student from Karnataka.</p>
+        <p>I'm learning programming and web development step by step.</p>
+        <a href="#projects" class="button">See My Projects</a>
     </section>
 
-    <section class="section" id="about">
-      <div class="container">
-        <p class="eyebrow">01 / ABOUT ME</p>
-        <div class="about-grid">
-          <h2>A little bit <span class="accent">about me.</span></h2>
-          <div class="about-copy">
-            <p>I'm a first-year Computer Science student from Karnataka. I'm at the start of my tech journey and learning the basics step by step.</p>
-            <p>I enjoy trying out code, building simple things, and learning how websites and programs work. I'm looking forward to improving my skills through practice and projects.</p>
-          </div>
-        </div>
-      </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a first-year Computer Science student from Karnataka. I am interested in technology and enjoy learning how websites and programs work.</p>
+        <p>I am still a beginner, so I practise by writing code and making small projects. I want to keep learning and improve my skills.</p>
     </section>
 
-    <section class="section section-soft" id="education">
-      <div class="container">
-        <p class="eyebrow">02 / EDUCATION</p>
-        <h2>Where I'm <span class="accent">learning.</span></h2>
-        <article class="education-card">
-          <span class="education-mark">01</span>
-          <div>
-            <p class="card-label">CURRENT EDUCATION</p>
+    <section id="education" class="light">
+        <h2>Education</h2>
+        <div class="card">
             <h3>BossCoder School of Technology</h3>
             <p>First-year Computer Science student</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="skills">
-      <div class="container">
-        <p class="eyebrow">03 / SKILLS</p>
-        <h2>What I'm <span class="accent">learning.</span></h2>
-        <p class="section-intro">These are the programming languages and web technologies I'm currently practising.</p>
-        <div class="skills-grid">
-          <article class="skill-card"><span class="skill-number">01</span><h3>HTML</h3><p>Creating the structure and content of web pages.</p></article>
-          <article class="skill-card"><span class="skill-number">02</span><h3>CSS</h3><p>Styling web pages and working with layouts.</p></article>
-          <article class="skill-card"><span class="skill-number">03</span><h3>JavaScript</h3><p>Learning programming logic and adding behaviour to websites.</p></article>
-          <article class="skill-card"><span class="skill-number">04</span><h3>Python</h3><p>Practising the basics of programming with Python.</p></article>
         </div>
-      </div>
     </section>
 
-    <section class="section section-soft" id="projects">
-      <div class="container">
-        <p class="eyebrow">04 / PROJECTS</p>
-        <h2>Things I've <span class="accent">made.</span></h2>
-        <p class="section-intro">A few simple projects as I learn and practise.</p>
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-art"><span>HK.</span><small>HTML · CSS · JAVASCRIPT</small></div>
-            <div class="project-info"><p class="card-label">PERSONAL WEBSITE</p><h3>My Portfolio</h3><p>A personal website introducing me, my skills, education and interests. I built it to practise the basics of web development.</p></div>
-          </article>
-          <article class="project-card project-next">
-            <div class="project-art"><span>＋</span><small>MORE TO COME</small></div>
-            <div class="project-info"><p class="card-label">CURRENTLY LEARNING</p><h3>Small Practice Projects</h3><p>I'm practising by making simple web pages and small programs. I'll add more projects here as I complete them.</p></div>
-          </article>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Used to create the structure of a web page.</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Used to add colours, spacing and styles to a web page.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>A programming language used to add actions to websites. I am learning its basics.</p>
+            </div>
+            <div class="card">
+                <h3>Python</h3>
+                <p>A programming language I am practising as a beginner.</p>
+            </div>
         </div>
-      </div>
     </section>
 
-    <section class="section" id="hobbies">
-      <div class="container">
-        <p class="eyebrow">05 / HOBBIES</p>
-        <h2>What I enjoy <span class="accent">doing.</span></h2>
-        <div class="hobby-grid">
-          <article class="hobby-card"><span>⌨</span><h3>Coding</h3><p>Practising code and learning how to make things work.</p></article>
-          <article class="hobby-card"><span>↗</span><h3>Running</h3><p>Taking time to stay active and clear my mind.</p></article>
-          <article class="hobby-card"><span>✦</span><h3>Vibecoding</h3><p>Experimenting with ideas and creating things with code.</p></article>
-          <article class="hobby-card"><span>〰</span><h3>Swimming</h3><p>Enjoying time in the pool and learning a new skill.</p></article>
+    <section id="projects" class="light">
+        <h2>My Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Personal Portfolio Website</h3>
+                <p>This website introduces me and shares my education, skills and hobbies. I made it using HTML and CSS.</p>
+            </div>
+            <div class="card">
+                <h3>Practice Projects</h3>
+                <p>I am practising by creating small web pages and simple programs. I will add more projects here as I complete them.</p>
+            </div>
         </div>
-      </div>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <a class="logo" href="#home">HK<span>.</span></a>
-      <p>Made by Harshit Kumar · <span id="year"></span></p>
-      <a href="https://github.com/Harshitkumar5610" target="_blank" rel="noreferrer">GitHub ↗</a>
-    </div>
-  </footer>
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Coding</h3>
+                <p>I enjoy practising code and learning new things.</p>
+            </div>
+            <div class="card">
+                <h3>Running</h3>
+                <p>I enjoy going for runs in my free time.</p>
+            </div>
+            <div class="card">
+                <h3>Vibecoding</h3>
+                <p>I like experimenting with ideas and creating things with code.</p>
+            </div>
+            <div class="card">
+                <h3>Swimming</h3>
+                <p>I enjoy swimming in my free time.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Portfolio made by Harshit Kumar</p>
+    </footer>
+
 </body>
 </html>
