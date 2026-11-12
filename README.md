@@ -1,30 +1,29 @@
 # Harshit Kumar - Personal Portfolio
 
-A simple, responsive personal portfolio website made with HTML, CSS and a little JavaScript.
+This is a simple personal portfolio website made with **HTML and CSS**.
 
 ## Sections
 
-- Home and introduction
-- About me
+- Home
+- About Me
 - Education
 - Skills
 - Projects
 - Hobbies
 
-## Technologies
+## Files
 
-- HTML
-- CSS
-- JavaScript
+- `index.html` contains the text and sections of the website.
+- `style.css` controls the colours, spacing, cards and responsive layout.
 
-## Run the website
+## How to open
 
 1. Download or clone this repository.
 2. Open the folder in Visual Studio Code.
-3. Open `index.html` in your browser.
+3. Open `index.html` in a browser.
 
-No extra packages or build tools are needed.
+## About the code
 
-## Note
+The website uses basic HTML elements and CSS properties. The small media query in the CSS adjusts the layout for mobile screens.
 
-The projects section currently describes this portfolio and the small practice projects I plan to add as I learn. The website uses a simple layout that adjusts to desktop, tablet and mobile screen sizes.
+There is no JavaScript in this project.
