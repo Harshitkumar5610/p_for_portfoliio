@@ -1,46 +1,30 @@
-# Personal Portfolio Website
+# Harshit Kumar - Personal Portfolio
 
-A beginner-friendly personal portfolio made with **HTML, CSS and JavaScript**.
+A simple, responsive personal portfolio website made with HTML, CSS and a little JavaScript.
 
-## Features
+## Sections
 
-1. Home section with an introduction and profile avatar
-2. About Me section
-3. Education timeline
-4. Technical and personal skills
-5. Projects section
-6. Hobbies and interests
-7. Achievements section
-8. Contact form with JavaScript validation
-9. Dark mode and light mode
-10. Interactive navigation with active section highlighting and smooth scrolling
-11. Responsive layout for desktop, tablet and mobile
+- Home and introduction
+- About me
+- Education
+- Skills
+- Projects
+- Hobbies
 
-## Files
+## Technologies
 
-- `index.html` — website content and sections
-- `style.css` — layout, colours, theme and responsive design
-- `script.js` — theme switch, mobile menu, navigation and form validation
+- HTML
+- CSS
+- JavaScript
 
 ## Run the website
 
 1. Download or clone this repository.
 2. Open the folder in Visual Studio Code.
-3. Open `index.html` in a browser (or use the Live Server extension).
+3. Open `index.html` in your browser.
 
-No build tools or extra packages are required.
+No extra packages or build tools are needed.
 
-## Personalise before submitting
+## Note
 
-- Check the name shown on the page.
-- Replace the education placeholders with your real school and college details.
-- Update the skills to match what you can actually do.
-- Add your real projects, certificates and achievements.
-- Replace the sample email and LinkedIn text with your own contact details.
-- Change the hobbies if you want to show different interests.
-
-The contact form currently validates the fields and displays a message in the browser. It does **not** send emails because this project has no backend or email service.
-
-## Technologies
-
-HTML5 · CSS3 · JavaScript
+The projects section currently describes this portfolio and the small practice projects I plan to add as I learn. The website uses a simple layout that adjusts to desktop, tablet and mobile screen sizes.
